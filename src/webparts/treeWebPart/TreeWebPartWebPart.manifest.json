@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "a238a161-b087-4399-b762-8d18ea10dd7b",
+  "alias": "TreeWebPartWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "D3K3 TreeWebPart" },
+    "description": { "default": "Build Any Tree With Any List" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Build Any Tree With Any List",
+      "listName": "",
+      "rootNodeValue": "",
+      "childColumns": [],
+      "tooltipFields": {}
+    }
+  }]
+}

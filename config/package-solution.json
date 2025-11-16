@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tree-web-part-client-side-solution",
+    "id": "cfb0abdc-edde-4d1e-8f2c-ad24e8a2eabc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TreeWebPart description"
+      },
+      "longDescription": {
+        "default": "TreeWebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "tree-web-part Feature",
+        "description": "The feature that activates elements of the tree-web-part solution.",
+        "id": "1f91279c-1bba-4705-b156-75090bc6e473",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tree-web-part.sppkg"
+  }
+}
